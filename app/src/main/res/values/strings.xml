@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مکان‌بان</string>
+    <string name="subtitle">ارسال موقعیت و زمان به گیرندهٔ اختصاصی</string>
+
+    <!-- کارت اتصال -->
+    <string name="lbl_device_card">اتصال به گیرنده</string>
+    <string name="btn_choose_device">انتخاب دستگاه جفت‌شده</string>
+    <string name="btn_disconnect">قطع</string>
+    <string name="status_disconnected">دستگاهی انتخاب نشده است.</string>
+    <string name="status_connected_to">متصل شد به %1$s</string>
+    <string name="connecting_to">در حال اتصال به %1$s…</string>
+    <string name="chip_disconnected">قطع</string>
+    <string name="chip_connecting">در حال اتصال</string>
+    <string name="chip_connected">متصل</string>
+
+    <!-- کارت موقعیت -->
+    <string name="lbl_location_card">موقعیت زنده</string>
+    <string name="lbl_lat">عرض جغرافیایی</string>
+    <string name="lbl_lon">طول جغرافیایی</string>
+    <string name="gps_searching">در جست‌وجوی ماهواره‌ها…</string>
+    <string name="gps_active">نشانی فعال — به‌روزرسانی هر ۲ ثانیه</string>
+    <string name="gps_off">سرویس موقعیت گوشی خاموش است.</string>
+    <string name="btn_open_gps">روشن‌کردن سرویس موقعیت</string>
+    <string name="btn_send_location">ارسال موقعیت</string>
+    <string name="btn_details">جزئیات مکان</string>
+    <string name="btn_send_time">ارسال فقط تاریخ و ساعت</string>
+
+    <!-- کارت جزئیات مکان -->
+    <string name="lbl_details_card">جزئیات مکان</string>
+    <string name="details_hint">با دکمهٔ «جزئیات مکان» کشور، استان، شهر و محله از روی موقعیت فعلی دریافت می‌شود.</string>
+    <string name="details_loading">در حال دریافت جزئیات…</string>
+    <string name="lbl_country">کشور</string>
+    <string name="lbl_province">استان</string>
+    <string name="lbl_city">شهر</string>
+    <string name="lbl_neighbourhood">محله</string>
+    <string name="lbl_accuracy">دقت نشانی</string>
+    <string name="lbl_altitude">ارتفاع</string>
+    <string name="lbl_speed">سرعت</string>
+    <string name="lbl_source">منبع</string>
+    <string name="val_unknown">—</string>
+    <string name="source_geocoder">سرویس موقعیت گوشی</string>
+    <string name="source_nominatim">نقشهٔ آزاد آنلاین</string>
+    <string name="source_cache">کش محلی</string>
+    <string name="fmt_accuracy">±%1$s متر</string>
+    <string name="fmt_meters">%1$s متر</string>
+    <string name="fmt_speed">%1$s کیلومتر بر ساعت</string>
+
+    <!-- کارت گزارش -->
+    <string name="lbl_log_card">گزارش تبادل</string>
+    <string name="ack_waiting">پاسخی دریافت نشده است</string>
+    <string name="ack_pending">فرستاده شد؛ در انتظار پاسخ گیرنده…</string>
+    <string name="ack_received">پاسخ گیرنده: %1$s</string>
+    <string name="log_empty">رویدادها اینجا نمایش داده می‌شوند.</string>
+
+    <!-- پیام‌ها -->
+    <string name="permission_needed">برای نمایش موقعیت، اجازهٔ دسترسی به موقعیت گوشی لازم است.</string>
+    <string name="bt_permission_needed">برای دیدن دستگاه‌های جفت‌شده، اجازهٔ بلوتوث لازم است.</string>
+    <string name="bt_unavailable">بلوتوث این گوشی خاموش است یا در دسترس نیست.</string>
+    <string name="bt_no_paired">دستگاه جفت‌شده‌ای پیدا نشد. ابتدا از تنظیمات بلوتوث گوشی با گیرنده جفت شوید و دوباره تلاش کنید.</string>
+    <string name="bt_open_settings">بازکردن تنظیمات بلوتوث</string>
+    <string name="choose_device_title">دستگاه جفت‌شده را انتخاب کنید</string>
+    <string name="send_not_connected">ابتدا به گیرنده متصل شوید.</string>
+    <string name="no_fix_yet">هنوز نشانی موقعیت دریافت نشده است.</string>
+    <string name="log_connect">اتصال برقرار شد.</string>
+    <string name="log_disconnect">اتصال قطع شد.</string>
+    <string name="log_send_failed">خطا در ارسال؛ اتصال را بررسی کنید.</string>
+    <string name="log_recv">دریافت شد: %1$s</string>
+    <string name="log_sent">ارسال شد: %1$s</string>
+    <string name="bt_link_lost">ارتباط با گیرنده قطع شد.</string>
+    <string name="bt_connect_failed">اتصال برقرار نشد. گیرنده روشن و در برد دسترسی باشد.</string>
+    <string name="bt_denied">اجازهٔ بلوتوث داده نشده است.</string>
+    <string name="footer">مکان‌بان — فرستندهٔ موقعیت، تاریخ و ساعت شمسی به گیرنده</string>
+</resources>
